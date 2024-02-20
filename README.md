@@ -1,4 +1,4 @@
-# Project Name
+# ABDULLAHI REACT CALCULATOR
 
 > One paragraph statement about the project.
 
@@ -8,20 +8,17 @@
 
 - Vite
 - TailwindCSS
-- Major languages,
-- frameworks,
-- technologies used
 
 ## Live Demo
 
-[Live Demo Link](https://js-react-template.netlify.app/)
+[Live Demo Link](https://abdullahi-react-calculator.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/js-react-template.git
+git clone https://github.com/moshoodabdullahi/abdullahi-react-calculator.git
 
 ```
 
