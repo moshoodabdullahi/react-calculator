@@ -1,6 +1,6 @@
 # ABDULLAHI REACT CALCULATOR
 
-> One paragraph statement about the project.
+> A React Calculator is a fully functional full-stack application built using React, Tailwind CSS, it provides the essential arithmetic operations to be carried out. This is the [Assignment Link](https://github.com/bolah2009/command-line-guide/blob/master/guide/react/01-react-calculator-app.md) and also the design link [Front-End Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
 
 ![screenshot](./app_screenshot.png)
 
@@ -18,7 +18,7 @@
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/abdullahi-react-calculator.git
+git clone https://github.com/moshoodabdullahi/react-calculator.git
 
 ```
 
