@@ -1,6 +1,6 @@
-# Project Name
+# ABDULLAHI REACT CALCULATOR
 
-> One paragraph statement about the project.
+> A React Calculator is a fully functional full-stack application built using React, Tailwind CSS, it provides the essential arithmetic operations to be carried out. This is the [Assignment Link](https://github.com/bolah2009/command-line-guide/blob/master/guide/react/01-react-calculator-app.md) and also the design link [Front-End Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,20 +8,17 @@
 
 - Vite
 - TailwindCSS
-- Major languages,
-- frameworks,
-- technologies used
 
 ## Live Demo
 
-[Live Demo Link](https://js-react-template.netlify.app/)
+[Live Demo Link](https://abdullahi-react-calculator.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/js-react-template.git
+git clone https://github.com/moshoodabdullahi/react-calculator.git
 
 ```
 
