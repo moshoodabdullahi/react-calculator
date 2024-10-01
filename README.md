@@ -1,6 +1,6 @@
 # ABDULLAHI REACT CALCULATOR
 
-> One paragraph statement about the project.
+> React Calculator Projects built with React Library and Tailwind Config.
 
 ![screenshot](./app_screenshot.png)
 
