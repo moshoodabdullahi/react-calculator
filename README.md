@@ -1,4 +1,4 @@
-# Project Name
+# ABDULLAHI REACT CALCULATOR
 
 > One paragraph statement about the project.
 
