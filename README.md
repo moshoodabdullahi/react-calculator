@@ -8,18 +8,17 @@
 
 - Vite
 - TailwindCSS
-- React
 
 ## Live Demo
 
-[Live Demo Link](https://react-template.netlify.app/)
+[Live Demo Link](https://abdullahi-react-calculator.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/react-template.git
+git clone https://github.com/moshoodabdullahi/react-calculator.git
 
 ```
 
