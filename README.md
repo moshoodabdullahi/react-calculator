@@ -8,20 +8,18 @@
 
 - Vite
 - TailwindCSS
-- Major languages,
-- frameworks,
-- technologies used
+- React
 
 ## Live Demo
 
-[Live Demo Link](https://js-react-template.netlify.app/)
+[Live Demo Link](https://react-template.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/js-react-template.git
+git clone https://github.com/moshoodabdullahi/react-template.git
 
 ```
 
@@ -126,6 +124,7 @@ Give a ⭐️ if you like this project!
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [Tailwind](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://tailwindcss.com/&ved=2ahUKEwiF4tHWsfSIAxWdUEEAHSVBB0wQFnoECAkQAQ&usg=AOvVaw2vSN7AVcVeE7IjW449Pt1C)
 
 ## 📝 License
 
