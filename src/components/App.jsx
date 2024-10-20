@@ -6,7 +6,7 @@ const ThemeProvider = ({ children }) => {
   const [theme] = useState('theme');
 
   return (
-    <div className={`main-container ${theme}`}>
+    <div className="main-container">
       <header className="header relative my-[50px] mb-[10px] flex">
         <h1 className="header-text absolute left-[12px] top-[-10px] font-spartan text-[#e9e2db]">
           calc
