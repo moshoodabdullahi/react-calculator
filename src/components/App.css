@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+input:checked {
+  background-color: hsl(6deg 70% 34%);
+}
+
+input:checked:hover {
+  background-color: hsl(6deg 63% 50%);
+}
+
+.keypad {
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(5, 70px);
+}
+
+.reset,
+.equals-key {
+  grid-column: span 2;
+}
