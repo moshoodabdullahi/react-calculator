@@ -38,7 +38,8 @@ const ThemeProvider = ({ children }) => {
             </div>
             <div className="theme-input relative left-[166px] top-[-22px] h-[30px] w-[80px] rounded-full bg-[#232c42]">
               <input
-                className="theme-choice appearance pointer absolute left-[10px] top-[7px] h-[15px] w-[15px] cursor-pointer appearance-none rounded-full"
+                className="theme-choice appearance pointer checked:bg-customRedChecked absolute left-[10px] top-[7px] h-[15px] w-[15px] cursor-pointer appearance-none 
+             rounded-full bg-[#cf3f2f] group-hover:checked:bg-customRedCheckedHover"
                 type="radio"
                 name="theme"
                 id="theme-1-attr"
@@ -83,14 +84,14 @@ const Calculator = () => {
     <div className="calculator-container">
       <Display result={result} />
 
-      <div className="keypad calc align grid rounded-lg bg-[#1A2B4D] px-[10px] py-[15px]">
+      <div className="grid grid-cols-4 grid-rows-5 gap-[10px] rounded-lg bg-[#1A2B4D] px-[10px] py-[15px]">
         {buttons.map((value) => (
           <button
             id="keypad-button"
             key={value}
-            className={`key ${value === 'RESET' ? 'reset' : ''} ${
-              value === '=' ? 'equals-key equal' : ''
-            } mx-[8px] my-[6px] mb-3 rounded-md border-none bg-[#e9e2db] py-2 font-spartan text-[#434a5a] shadow-[0_5px_#b4a497] active:translate-y-[2px]`}
+            className={`key ${value === 'RESET' ? 'reset col-span-2' : ''} ${
+              value === '=' ? 'equals-key equal col-span-2' : ''
+            } mx-[8px] my-[6px] mb-3 ml-[2px] h-[60px] w-[58px] rounded-md border-none bg-[#e9e2db] font-spartan text-[#434a5a] shadow-[0_5px_#b4a497] active:translate-y-[2px]`}
             value={value}
             type="button"
             style={{
@@ -112,6 +113,8 @@ const Calculator = () => {
                     fontSize: '18px',
                     padding: '17px 0',
                     transform: "isActive ? 'translateY(2px)' : 'none'",
+                    width: '131px',
+                    height: '60px',
                   }
                 : {}),
               ...(value === '='
@@ -121,6 +124,8 @@ const Calculator = () => {
                     boxShadow: '0 5px #b02c24',
                     color: '#ffffff',
                     transform: "isActive ? 'translateY(2px)' : 'none'",
+                    width: '131px',
+                    height: '60px',
                   }
                 : {}),
             }}
