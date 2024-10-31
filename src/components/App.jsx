@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
 import Display from './Display';
+import './App.css';
 
 const ThemeProvider = ({ children }) => {
   const [theme] = useState('theme');
