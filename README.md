@@ -123,6 +123,7 @@ Give a ⭐️ if you like this project!
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
 
 ## 📝 License
 
