@@ -1,9 +1,9 @@
-import React from 'react';
+import './App.css';
 
 const Display = ({ result }) => {
   return (
-    <div className="mb-4 h-[80px] w-[100%] justify-around rounded-lg bg-[#181f34] p-4 pr-2.5 text-right text-white">
-      <div className="font-spartan text-[28px] font-bold">{result}</div>
+    <div className="mb-4 h-[100px] w-full justify-around rounded-2xl bg-[#181f34] p-4 pr-[22px] pt-[24px] text-right text-white">
+      <div className="font-spartan text-[35px] font-bold">{result}399,981</div>
     </div>
   );
 };
